@@ -1,0 +1,18 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+header {
+    background: #010101;
+	padding: 20px 0;
+}
+
+.imagem {
+    width: auto;
+}
+
+@media screen and (max-width: 480px){
+    body, .imagem{
+		width: auto;
+    }
+}
